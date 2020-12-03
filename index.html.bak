@@ -12,7 +12,7 @@
 		<h4>This is heading 4</h4>
 		<h5>This is heading 5</h5>
 		<h6>This is heading 6</h6>
-		<table style="width:30%" align="center" border="5px">
+		<table style="width:30%" border="5px">
 			<tr>
 				<th>Vegetables</th>
 				<th>Price/Kilo</th>
