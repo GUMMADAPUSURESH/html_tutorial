@@ -1,0 +1,28 @@
+#title {
+    width: 250px;
+    animation: mymove 5s infinite;
+    text-align: center;
+  }
+  
+  @keyframes mymove {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
+
+body {
+    background-color: #ADD8E6;
+  }
+
+a {
+    text-decoration: none ;
+    color: black;
+  }
+
+#nav { 
+    color: black;
+    margin: 3px;
+  }
+
+#list {
+    float: left;
+  }
