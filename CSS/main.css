@@ -13,7 +13,7 @@ body {
     background-color: #ADD8E6;
   }
 
-a {
+a.anchor {
     text-decoration: none ;
     color: black;
   }
@@ -26,3 +26,7 @@ a {
 #list {
     float: left;
   }
+
+sup {
+  color: red;
+}
