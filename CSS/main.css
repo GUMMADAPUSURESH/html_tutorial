@@ -1,6 +1,7 @@
 #title {
     width: 250px;
     background-color: seagreen;
+    color: white;
     text-align: center;
   }
   
@@ -8,13 +9,12 @@ body {
     background-color: #ADD8E6;
   }
 
-a {
+#a2, #a3, #a4, #a5 {
     text-decoration: none ;
     color: black;
   }
 
-#nav { 
-    color: black;
+#nav {
     margin: 3px;
   }
 
