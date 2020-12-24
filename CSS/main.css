@@ -1,19 +1,14 @@
 #title {
     width: 250px;
-    animation: mymove 5s infinite;
+    background-color: seagreen;
     text-align: center;
   }
   
-  @keyframes mymove {
-    from {background-color: red;}
-    to {background-color: yellow;}
-  }
-
 body {
     background-color: #ADD8E6;
   }
 
-a.anchor {
+a {
     text-decoration: none ;
     color: black;
   }
@@ -30,3 +25,5 @@ a.anchor {
 sup {
   color: red;
 }
+
+ 
