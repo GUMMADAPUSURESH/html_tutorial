@@ -3,6 +3,7 @@
     background-color: seagreen;
     color: white;
     text-align: center;
+    margin-left: 3px;
   }
   
 body {
@@ -16,6 +17,8 @@ body {
 
 #nav {
     margin: 3px;
+    background-color: rgba(230, 105, 22, 0.582);
+    margin-right: 3px;
   }
 
 #list {
@@ -27,7 +30,7 @@ sup {
 }
 
 table, th, td {
-  text-decoration: lawngreen;
+  color: orangered;
   text-align: center;
   border: 1px solid indigo;
   border-collapse: collapse;
