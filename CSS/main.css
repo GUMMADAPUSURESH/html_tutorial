@@ -1,24 +1,22 @@
-#title {
-    width: 250px;
+.title h1 a{
     background-color: seagreen;
-    color: white;
+    width: 250px;
     text-align: center;
-    margin-left: 3px;
+    color: white;
   }
   
 body {
+  margin: 0;
     background-color: #ADD8E6;
   }
 
-#a2, #a3, #a4, #a5 {
+div a {
     text-decoration: none ;
     color: black;
   }
 
-#nav {
-    margin: 3px;
+  #nav{
     background-color: rgba(230, 105, 22, 0.582);
-    margin-right: 3px;
   }
 
 #list {
@@ -29,9 +27,16 @@ sup {
   color: red;
 }
 
-table, th, td {
+th, td {
   color: orangered;
   text-align: center;
   border: 1px solid indigo;
-  border-collapse: collapse;
 } 
+
+table  {
+  border-collapse: collapse;
+}
+
+table:first-child {
+  color: blue;
+}
