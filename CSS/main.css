@@ -37,14 +37,18 @@ table  {
   border-collapse: collapse;
 }
 
-table:first-child {
-  color: blue;
-}
-
 div ~ p {
   background-color: blueviolet;
 }
 
 .footer {
   text-align:center;
+}
+
+li:nth-child(2n) {
+  color: red;
+}
+
+dt {
+  color: red;
 }
