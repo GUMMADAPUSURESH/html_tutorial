@@ -40,3 +40,7 @@ table  {
 table:first-child {
   color: blue;
 }
+
+div + p {
+  background-color: blueviolet;
+}
