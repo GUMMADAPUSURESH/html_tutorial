@@ -44,3 +44,7 @@ table:first-child {
 div ~ p {
   background-color: blueviolet;
 }
+
+.footer {
+  text-align:center;
+}
