@@ -41,6 +41,6 @@ table:first-child {
   color: blue;
 }
 
-div + p {
+div ~ p {
   background-color: blueviolet;
 }
