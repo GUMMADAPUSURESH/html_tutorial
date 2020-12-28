@@ -15,7 +15,8 @@ div a {
     color: black;
   }
 
-  #nav{
+ #nav {
+    color: black;
     background-color: rgba(230, 105, 22, 0.582);
   }
 
@@ -50,5 +51,13 @@ li:nth-child(2n) {
 }
 
 dt {
+  color: red;
+}
+
+a:hover {
+  color: rgb(251, 255, 0);
+}
+
+a:active {
   color: red;
 }
