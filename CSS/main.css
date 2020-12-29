@@ -15,10 +15,18 @@ div a {
     color: black;
   }
 
- #nav {
+#nav {
     color: black;
     background-color: rgba(230, 105, 22, 0.582);
   }
+
+#nav a:hover  {
+  background-color: rgba(230, 105, 22);
+} 
+
+#nav a:active  {
+  color: black;
+}
 
 #list {
     float: left;
@@ -36,6 +44,7 @@ th, td {
 
 table  {
   border-collapse: collapse;
+  align: center;
 }
 
 div ~ p {
@@ -55,9 +64,17 @@ dt {
 }
 
 a:hover {
-  color: rgb(251, 255, 0);
+  color: green;
 }
 
 a:active {
   color: red;
+}
+
+.tabrow td {
+  color: blue;
+}
+
+.tabrow th {
+  color: black;
 }
