@@ -77,3 +77,7 @@ a:active {
 .tabrow th {
   color: black;
 }
+
+.att font[face] {
+  color: crimson;
+}
