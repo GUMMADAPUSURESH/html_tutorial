@@ -16,7 +16,7 @@
 }
 
 body {
-  margin: 0;
+    margin: 0;
     background-color: #ADD8E6;
 }
 
@@ -46,8 +46,12 @@ div a {
     margin: 0px 10px 0px;
 }
 
-form sup {
+div form sup {
   color: red;
+}
+
+.supstar {
+  text-align: center;
 }
 
 th, td {
