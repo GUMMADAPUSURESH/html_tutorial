@@ -50,7 +50,8 @@ form sup {
 th, td {
   color: orangered;
   text-align: center;
-  border: 1px solid indigo;
+  border: 3px solid indigo;
+  padding: 5px;
 } 
 
 table  {
