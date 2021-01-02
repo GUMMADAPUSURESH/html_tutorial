@@ -2,6 +2,7 @@
     border-width: 5px;
     border-style: dotted;
     border-color: red;
+    border-radius: 10px;
     background-color: seagreen;
     text-align: center;
     color: white;
@@ -11,9 +12,9 @@
     position: relative;
   }
   @keyframes example {
-    0% {border-color: red; left:0px; top:0px;}
-    50% {border-color: yellow; left: 82%; top:0px;}
-    100% {border-color: red; left:0px; top:0px;}
+    0% {border-color: red; background-color: seagreen; left:0px; top:0px;}
+    50% {border-color: yellow; background-color:blue; left: 82%; top:0px;}
+    100% {border-color: red; background-color: seagreen; left:0px; top:0px;}
   }
 
 
