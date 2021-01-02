@@ -1,17 +1,15 @@
 .title h1 a{
-    border-width: 5px;
-    border-style: dotted;
-    border-color: red;
+    border: red 5px dotted;
     border-radius: 10px;
     background-color: seagreen;
     text-align: center;
     color: white;
-    animation-name: example;
+    animation-name: title;
     animation-duration: 30s;
     animation-iteration-count: infinite;
     position: relative;
   }
-  @keyframes example {
+  @keyframes title {
     0% {border-color: red; background-color: seagreen; left:0px; top:0px;}
     50% {border-color: yellow; background-color:blue; left: 82%; top:0px;}
     100% {border-color: red; background-color: seagreen; left:0px; top:0px;}
