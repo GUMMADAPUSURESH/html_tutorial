@@ -1,4 +1,4 @@
-.title h1 a{
+.title h1 a {
     border: red 5px dotted;
     border-radius: 10px;
     background-color: seagreen;
@@ -8,18 +8,17 @@
     animation-duration: 30s;
     animation-iteration-count: infinite;
     position: relative;
-  }
-  @keyframes title {
+}
+@keyframes title {
     0% {border-color: red; background-color: seagreen; left:0px; top:0px;}
     50% {border-color: yellow; background-color:blue; left: 82%; top:0px;}
     100% {border-color: red; background-color: seagreen; left:0px; top:0px;}
-  }
-
+}
 
 body {
   margin: 0;
     background-color: #ADD8E6;
-  }
+}
 
 div a {
     text-decoration: none ;
@@ -31,17 +30,17 @@ div a {
     background-color: rgba(230, 105, 22, 0.582);
   }
 
-#nav a:hover  {
+#nav a:hover {
   background-color: rgba(230, 105, 22);
 } 
 
-#nav a:active  {
+#nav a:active {
   color: black;
 }
 
 #list {
     float: left;
-  }
+}
 
 form sup {
   color: red;
@@ -54,7 +53,7 @@ th, td {
   padding: 5px;
 } 
 
-table  {
+table {
   border-collapse: collapse;
 }
 
