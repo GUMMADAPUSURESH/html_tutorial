@@ -34,11 +34,11 @@ div a {
   background-color: rgba(230, 105, 22);
 } 
 
-#nav a:active {
+#nav a:active, .tabrow th {
   color: black;
 }
 
-#list {
+.list ul, .list ol, .list dl {
     float: left;
     border: red dashed 2px;
     border-radius: 10px;
@@ -92,10 +92,6 @@ a:active {
 
 .tabrow td {
   color: blue;
-}
-
-.tabrow th {
-  color: black;
 }
 
 .att font[face] {
