@@ -37,7 +37,6 @@
     list-style-type: none;
     display: inline-block;
     padding: 8px 25px;
-    
     font-size: 20px;
 }
 
@@ -171,4 +170,58 @@
     margin-bottom: 0;
     padding-bottom: 0;
     color: white;
+}
+
+.nav-bar .fa {
+    display: none;
+}
+
+/*---------Responsive Page Code-------------*/
+
+@media (max-width: 800px) {
+    .vertical-bar {
+        display: none;
+    }
+    .banner-title {
+        margin: 80px 40px;
+    }
+    .banner-title h1 {
+        font-size: 50px;
+    }
+    .notifications {
+        width: 100%;
+    }
+    .nav-bar {
+        padding: 10px 30px;
+    }
+    .fa-bars {
+        position: absolute;
+        right: 20px;
+        top: 10px;
+    }
+    .nav-bar .fa {
+        display: block;
+        color: #fff;
+        margin: 10px 25px;
+        font: 22px;
+        cursor: pointer;
+    }
+    .nav-links {
+        height: 100vh;
+        width: 200px;
+        background: #000;
+        top: 0;
+        right: -200px;
+        position: absolute;
+        text-align: left;
+        z-index: 2;
+    }
+    .nav-links ul a {
+        display: flex;
+    }
+    .nav-links .btn {
+        float: none;
+        margin-left: 25px;
+        margin-top: 10px;
+    }
 }
