@@ -179,6 +179,9 @@
 /*---------Responsive Page Code-------------*/
 
 @media (max-width: 800px) {
+    .nav-logo img {
+        margin-top: 20px;
+    }
     .vertical-bar {
         display: none;
     }
