@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'sans-serif', georgia;
+}
+
+.bgimg {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)), url(../images/imrs.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.nav-bar {
+    display: flex;
+    padding: 40px 120px;
+}
+
+.nav-logo img {
+    width: 100px;
+    margin-top: -20px;
+}
+
+.nav-links {
+    flex: 1;
+}
+
+.nav-links ul {
+    margin-left: 50px;
+    display: inline;
+}
+
+.nav-links ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 8px 25px;
+    
+    font-size: 20px;
+}
+
+.nav-links ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.nav-links ul li::after {
+    content: '';
+    width: 0;
+    height: 2px;
+    background: #0741AD;
+    display: block;
+    margin: auto;
+    transition: .3s;
+}
+
+.nav-links ul li:hover::after {
+    width: 100%;
+}
+
+.btn {
+    padding: 15px 30px;
+    border: none;
+    background: #0741AD;
+    transition: 1s;
+    font-weight: bold;
+}
+
+.nav-links .btn{
+    float: right;
+}
+
+.btn .sub-btn {
+    color: white;
+    text-decoration: none;
+}
+
+.banner-title {
+    margin: 80px 130px;
+    color: #ffff;
+}
+
+.banner-title h1{
+    font-size: 55px;
+    margin-bottom: 30px;
+}
+
+.banner-title .btn {
+    transition: none;
+}
+
+.vertical-bar {
+    height: 100%;
+    background: #000;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.search-icons {
+    height: 60%;
+    width: 80px;
+}
+
+.search-icons .fa {
+    margin: 45px 23px;
+    display: block;
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.social-icons {
+    height: 35%;
+    width: 80px;
+    background: #0741AD;
+    text-align: center;
+    padding-top: 27%;
+    bottom: 0;
+    position: absolute;
+}
+
+.social-icons a {
+    text-decoration: none;
+}
+
+.social-icons .fa {
+    margin: 15px 23px;
+    display: block;
+    color: white;
+    padding: 8px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
