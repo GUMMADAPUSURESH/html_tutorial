@@ -180,7 +180,7 @@
 
 @media (max-width: 800px) {
     .nav-logo img {
-        margin-top: 20px;
+        margin-top: 0px;
     }
     .vertical-bar {
         display: none;
