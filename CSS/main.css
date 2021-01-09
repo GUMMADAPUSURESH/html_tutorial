@@ -63,12 +63,12 @@
     padding: 15px 30px;
     border: none;
     background: #0741AD;
-    transition: 1s;
     font-weight: bold;
 }
 
 .nav-links .btn{
     float: right;
+    transition: 1s;
 }
 
 .btn .sub-btn {
@@ -178,7 +178,7 @@
 
 /*---------Responsive Page Code-------------*/
 
-@media (max-width: 800px) {
+@media (max-width: 760px) {
     .nav-logo img {
         margin-top: 0px;
     }
